@@ -10,7 +10,7 @@ ENV MONGODB_URI = "mongodb://mongodb:27017/guestbook"
 
 RUN chown -R node:node /home/node/app 
 
-USER node
+USER nodee
 WORKDIR /home/node/app
 RUN npm install --save
 
